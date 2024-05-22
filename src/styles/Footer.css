@@ -1,0 +1,33 @@
+@media (max-width: 4000px) {
+    .drawer-content {
+        display: none;
+    }
+
+    .drawer {
+        display: none !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .drawer-content {
+        display: block;
+    }
+
+    .drawer {
+        display: grid !important;
+    }
+
+    .navlinks-container {
+        display: none !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .topbar ul {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}
